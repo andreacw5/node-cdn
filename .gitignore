@@ -1,0 +1,15 @@
+.idea
+node_modules
+package-lock.json
+
+!src/uploads/*/.gitkeep
+
+src/.DS_Store
+
+src/uploads/.DS_Store
+
+src/uploads/shop/.DS_Store
+
+src/uploads/articles/.DS_Store
+
+.DS_Store

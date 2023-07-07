@@ -1,0 +1,11 @@
+services:
+  node-cdn:
+    image: registry.gitlab.com/atomweb/node-cdn:0.1.0
+    container_name: cdn
+    restart: unless-stopped
+    ports:
+      - '8089:8080'
+    env_file:
+      - ./config/cdn.env
+    volumes:
+      - ./uploads:/home/node/src/uploads

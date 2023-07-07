@@ -1,0 +1,7 @@
+.dockerignore
+.env.example
+.gitignore
+.history
+Dockerfile
+README.md
+node_modules
